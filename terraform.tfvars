@@ -1,0 +1,17 @@
+aws_region              = "us-east-1"
+project_name            = "cmtr-k5vl9gpq"
+ami_id                  = "ami-09e6f87a47903347c"
+instance_type           = "t3.micro"
+ssh_key_name            = "cmtr-k5vl9gpq-keypair"
+vpc_name                = "cmtr-k5vl9gpq-vpc"
+public_subnet_cidr_a    = "10.0.1.0/24"
+private_subnet_cidr_a   = "10.0.2.0/24"
+public_subnet_cidr_b    = "10.0.3.0/24"
+private_subnet_cidr_b   = "10.0.4.0/24"
+ec2_sg_name             = "cmtr-k5vl9gpq-ec2_sg"
+http_sg_name            = "cmtr-k5vl9gpq-http_sg"
+lb_sg_name              = "cmtr-k5vl9gpq-sglb"
+instance_profile_name   = "cmtr-k5vl9gpq-instance_profile"
+asg_desired_capacity    = 2
+asg_min_size            = 1
+asg_max_size            = 2
